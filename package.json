@@ -1,5 +1,5 @@
 {
-  "name": "lozad",
+  "name": "@trussle/lozad",
   "title": "lozad.js",
   "description": "A light-weight JS library to lazy load any HTML element such as images, ads, videos etc.",
   "version": "1.7.0",
