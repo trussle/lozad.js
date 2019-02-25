@@ -23,7 +23,7 @@ const defaultConfig = {
       } else {
         // Gets an array of source elements
         // Node list converted to array because some browsers don't support forEach on a node list
-        const sourceElements = [...element.querySelectorAll('source')]
+        const sourceElements = Array.prototype.slice.apply(element.querySelectorAll('source'))
         // Loop thrrough them all
         sourceElements.forEach(source => {
           // If there is a data-srcset attribute, make it a srcset attribute
